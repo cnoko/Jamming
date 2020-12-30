@@ -1,5 +1,5 @@
-const clientId = REACT_APP_CLIENT_ID;
-const redirectUri = 'http://localhost:3000/';
+const clientId = process.env.REACT_APP_CLIENT_ID;
+const redirectUri = process.env.REACT_APP_REDIRECT_URI;
 const _scopes = ['playlist-modify-public'];
 let _accessToken;
 const Spotify = {
