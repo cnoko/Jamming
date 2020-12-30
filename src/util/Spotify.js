@@ -1,4 +1,4 @@
-const clientId = '***';
+const clientId = REACT_APP_CLIENT_ID;
 const redirectUri = 'http://localhost:3000/';
 const _scopes = ['playlist-modify-public'];
 let _accessToken;
